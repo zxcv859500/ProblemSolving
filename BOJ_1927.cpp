@@ -17,10 +17,10 @@ int main(void) {
             pq.push(num);
         } else {
             if (pq.size() == 0) {
-                printf("a 0\n");
+                printf("0\n");
             } else {
                 int temp = pq.top();
-                printf("a %d\n", temp);
+                printf("%d\n", temp);
                 pq.pop();
             }
         }
